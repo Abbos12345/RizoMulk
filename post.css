@@ -274,6 +274,11 @@ section > h4{
 
 /* =============== ADDRESS SECTION =================== */
 
+.main__home-address{
+    width: 100%;
+    height: 688px;
+}
+
 .main__home-address > h4{
     margin-bottom: 24px;
 }
@@ -305,6 +310,11 @@ section > h4{
 
 /* ======================== ABOUT HOME SECTION ===================== */
 
+.main__about-home{
+    width: 100%;
+    height: 320px;
+}
+
 .main__about-home > h4{
     margin-bottom: 24px;
 }
@@ -322,6 +332,11 @@ section > h4{
 
 /*  ==================  ABOUT FLAT SECTION ======================*/
 
+.main__about-flat{
+    width: 100%;
+    height: 688px;
+}
+
 .main__about-flat > h4{
     margin-bottom: 24px;
 }
@@ -338,6 +353,11 @@ section > h4{
 
 
 /* ======================== VIEW AND MORE SECTION ================== */
+
+.mian__view-and-more{
+    width: 100%;
+    height: 654px;
+}
 
 .mian__view-and-more > h4{
     margin-bottom: 16px;
@@ -417,6 +437,11 @@ section > h4{
 
 /* ============================= PRICE AND DEAL SECTION ================== */
 
+.main__price-and-deal{
+    width: 100%;
+    height: 320px;
+}
+
 .main__price-and-deal > h4{
     margin-bottom: 24px;
 }
@@ -434,6 +459,11 @@ section > h4{
 
 
 /* ======================== CONTACTS SECTION ==================== */
+
+.main__contacts{
+    width: 100%;
+    height: 400px;
+}
 
 .main__contacts > h4{
     margin-bottom: 24px;

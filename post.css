@@ -14,5 +14,308 @@ section > h4{
 }
 
 .input{
-    
+    background-color: rgba(250, 250, 250, 1);
+    width: 400px;
+    height: 56px;
+    padding-left: 16px;
+    color: rgba(235, 235, 235, 1);
+    border: 2px solid rgba(235, 235, 235, 1);
+    border-radius: 8px;
+}
+
+.input::placeholder{
+    color: rgba(235, 235, 235, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.selector{
+    background-color: rgba(250, 250, 250, 1);
+    padding: 12px 36px;
+    border: 2px solid rgba(235, 235, 235, 1);
+    border-radius: 28px;
+    color: #000;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    width: 100%;
+    height: min-content;
+}
+
+.row-1__col-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 126px;
+    height: auto; 
+}
+
+.row-1__col-1 > p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+}
+
+.row-1__col-2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 1058px;
+    height: auto;
+}
+
+
+
+
+
+
+
+/* =========== PROGRESS STEP ============== */
+
+.main__new-first > h4{
+    margin-bottom: 16px;
+}
+
+
+.main__progress-step{
+    width: 100%;
+    height: max-content;
+    padding-block: 40px;
+}
+
+
+.main__progress-step h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.main__progress-step p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--light-color);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.progres-step-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.progres-step-container > span:nth-child(1){
+    color: var(--main-color);
+}
+
+.progres-step-container > span:first-of-type::after{
+    background-color: var(--main-color);
+}
+
+.progres-step-container > span{
+    position: relative;
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: var(--light-color);
+    padding-bottom: 12px;
+}
+
+.progres-step-container > span::after{
+    position: absolute;
+    top: 36px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 10px;
+    background-color: rgba(228, 228, 228, 1);
+    border-radius: 4px;
+}
+
+.progress-btns{
+    background-color: var(--background-btn);
+    width: 386px;
+    height: 124px;
+    border: 2px solid var(--main-color);
+    border-radius: 8px;
+}
+
+.main__new-first__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+    height: min-content;
+}
+
+
+
+
+/* ============ SECOND SECTION =============== */
+
+.main__new-second > h4{
+    margin-bottom: 16px;
+}
+
+.main__new-second__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* =============== ADDRESS SECTION =================== */
+
+.main__home-address > h4{
+    margin-bottom: 24px;
+}
+
+.main__home-address__container__inputs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: min-content;
+    margin-bottom: 32px;
+}
+
+.main__home-address__container__inputs > .input:nth-child(1){
+    width: 740px;
+}
+
+.main__home-address__container__inputs > .input:nth-child(2){
+    width: 442px;
+}
+
+.main__home-address__container__map{
+    background-color: black;
+    width: 1206px;
+    height: 480px;
+    border-radius: 8px;
+}
+
+
+
+/* ======================== ABOUT HOME SECTION ===================== */
+
+.main__about-home > h4{
+    margin-bottom: 24px;
+}
+
+.main__about-home__container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+
+
+
+/*  ==================  ABOUT FLAT SECTION ======================*/
+
+.main__about-flat > h4{
+    margin-bottom: 24px;
+}
+
+.main__about-flat_-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+
+
+
+/* ======================== VIEW AND MORE SECTION ================== */
+
+.mian__view-and-more > h4{
+    margin-bottom: 16px;
+}
+
+.mian__view-and-more > p{
+    width: 1016px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--light-color);
+    margin-bottom: 24px;
+}
+
+.main__view-and-more__container {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.message-input {
+    width: 700px;
+    height: 120px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.add-pic{
+    background-color: var(--background-btn);
+    width: 101px;
+    height: 101px;
+    border: 2px dashed var(--main-color);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+/* ============================= PRICE AND DEAL SECTION ================== */
+
+.main__price-and-deal > h4{
+    margin-bottom: 24px;
+}
+
+.main__price-and-deal__container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+
+
+
+
+/* ======================== CONTACTS SECTION ==================== */
+
+.main__contacts > h4{
+    margin-bottom: 24px;
+}
+
+.main__contacts__container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }

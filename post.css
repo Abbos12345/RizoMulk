@@ -181,6 +181,12 @@ section > h4{
     color: black;
 }
 
+.main__new-first{
+    width: 100%;
+    height: 236px;
+}
+
+
 .main__new-first__container{
     display: flex;
     justify-content: space-between;
@@ -245,6 +251,11 @@ section > h4{
 
 
 /* ============ SECOND SECTION =============== */
+
+.main__new-second{
+    width: 100%;
+    height: 384px;
+}
 
 .main__new-second > h4{
     margin-bottom: 16px;

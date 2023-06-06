@@ -1,3 +1,11 @@
+const addBtn = document.querySelector('#addBtn');
+
+
+addBtn.addEventListener('click', function() {
+  location.href = 'post.html';
+})
+
+
 const benefitialContainer = document.getElementById("benefitial");
 const regularContainer = document.getElementById("regular");
 

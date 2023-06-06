@@ -393,14 +393,6 @@ section > h2{
   padding: 40px 32px;
 }
 
-.main__best-sellers__map{
-  background: url(./assets/img/map.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 406px;
-  height: 376px;
-}
 
 .main__best-sellers__profile > h4{
   font-size: 24px;
@@ -458,6 +450,59 @@ section > h2{
   color: var(--light-color);
 }
 
+
+.main__best-sellers__map{
+  position: relative;
+  background: url(./assets/img/map.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 406px;
+  height: 376px;
+}
+
+.main__best-sellers__map > div{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff90;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  text-align: center;
+  filter:drop-shadow(20px);
+}
+
+.main__best-sellers__map > div > h4{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgba(50, 50, 50, 1);
+  margin-bottom: 12px;
+}
+
+.main__best-sellers__map > div > p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.main__best-sellers__map > div > button{
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--main-color);
+  border: 1.5px solid var(--main-color);
+  border-radius: 8px;
+  padding: 10px 24px;
+}
 
 
 
@@ -535,6 +580,7 @@ section > h2{
 }
 
 .partnership__col-1 > div > div, .partnership__col-2 > div > div{
+  position: relative;
   background-color: #fff;
   width: 64px;
   height: 64px;
@@ -556,6 +602,17 @@ section > h2{
   font-weight: 400;
   line-height: 25.6px;
   color: rgba(50, 50, 50, 1);
+}
+
+.partnership__col-1 > div > div > div, .partnership__col-2 > div > div > div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--background-btn);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
 }
 
 

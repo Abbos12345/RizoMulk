@@ -13,8 +13,8 @@ const onSale = [
 
     {
         recommended: true,
-        totalPrice: null,
-        monthyPrice: "323 000 000UZS",
+        totalPrice: "323 000 000UZS",
+        monthlyPrice: null,
         information: "Продается 2х комнатная квартира в Юнусабадском районе",
         address: "Юнусабад, ул. Бунёдкор, 24а дом",
         metro: "4 мин до метро",
@@ -26,7 +26,7 @@ const onSale = [
     {
         recommended: true,
         totalPrice: null,
-        monthyPrice: "6 500 000UZS",
+        monthlyPrice: "6 500 000UZS",
         information: "Продается 2х комнатная квартира в Юнусабадском районе",
         address: "Юнусабад, ул. Бунёдкор, 24а дом",
         metro: "4 мин до метро",
@@ -48,8 +48,8 @@ const onSale = [
 
     {
         recommended: false,
-        totalPrice: null,
-        monthyPrice: "323 000 000UZS",
+        totalPrice: "323 000 000UZS",
+        monthlyPrice: null,
         information: "Продается 2х комнатная квартира в Юнусабадском районе",
         address: "Юнусабад, ул. Бунёдкор, 24а дом",
         metro: "4 мин до метро",
@@ -61,7 +61,7 @@ const onSale = [
     {
         recommended: false,
         totalPrice: null,
-        monthyPrice: "6 500 000UZS",
+        monthlyPrice: "6 500 000UZS",
         information: "Продается 2х комнатная квартира в Юнусабадском районе",
         address: "Юнусабад, ул. Бунёдкор, 24а дом",
         metro: "4 мин до метро",
@@ -83,8 +83,8 @@ const onSale = [
 
     {
         recommended: false,
-        totalPrice: null,
-        monthyPrice: "323 000 000UZS",
+        totalPrice: "323 000 000UZS",
+        monthlyPrice: null,
         information: "Продается 2х комнатная квартира в Юнусабадском районе",
         address: "Юнусабад, ул. Бунёдкор, 24а дом",
         metro: "4 мин до метро",
@@ -96,7 +96,7 @@ const onSale = [
     {
         recommended: false,
         totalPrice: null,
-        monthyPrice: "6 500 000UZS",
+        monthlyPrice: "6 500 000UZS",
         information: "Продается 2х комнатная квартира в Юнусабадском районе",
         address: "Юнусабад, ул. Бунёдкор, 24а дом",
         metro: "4 мин до метро",
@@ -118,8 +118,8 @@ const onSale = [
 
     {
         recommended: false,
-        totalPrice: null,
-        monthyPrice: "323 000 000UZS",
+        totalPrice: "323 000 000UZS",
+        monthlyPrice: null,
         information: "Продается 2х комнатная квартира в Юнусабадском районе",
         address: "Юнусабад, ул. Бунёдкор, 24а дом",
         metro: "4 мин до метро",
@@ -131,7 +131,7 @@ const onSale = [
     {
         recommended: false,
         totalPrice: null,
-        monthyPrice: "6 500 000UZS",
+        monthlyPrice: "6 500 000UZS",
         information: "Продается 2х комнатная квартира в Юнусабадском районе",
         address: "Юнусабад, ул. Бунёдкор, 24а дом",
         metro: "4 мин до метро",

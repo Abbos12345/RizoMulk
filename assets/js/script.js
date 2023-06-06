@@ -16,21 +16,55 @@ onSale.forEach((item) =>{
   const div = document.createElement('div');
   div.classList.add('section-container')
 
-  div.innerHTML = `
-  <div class="section-container__img">
-    <img src="${item.img}" alt="">
-  </div>
-  <div class="section-container__content">
-    <h4>${item.monthlyPrice} <span>/month</span></h4>
-    <p class="section-container__content-info">${item.information}</p>
-    <p class="section-container__content-address">${item.address}</p>
-    <div class="section-container__content__footer">
-      <div><div></div>${item.metro}</div>
-      <div><div></div>${item.floor}</div>
-      <div><div></div>${item.space}</div>
+
+  if(item.monthlyPrice){
+    div.innerHTML = `
+    <div class="section-container__img">
+      <img src="${item.img}" alt="">
     </div>
-  </div>
-  `
+    <div class="section-container__content">
+      <h4>${item.monthlyPrice} <span>/month</span></h4>
+      <p class="section-container__content-info">${item.information}</p>
+      <p class="section-container__content-address">${item.address}</p>
+      <div class="section-container__content__footer">
+        <div><div></div>${item.metro}</div>
+        <div><div></div>${item.floor}</div>
+        <div><div></div>${item.space}</div>
+      </div>
+    </div>
+    `
+  } else{
+    div.innerHTML = `
+    <div class="section-container__img">
+      <img src="${item.img}" alt="">
+    </div>
+    <div class="section-container__content">
+      <h4>${item.totalPrice}</h4>
+      <p class="section-container__content-info">${item.information}</p>
+      <p class="section-container__content-address">${item.address}</p>
+      <div class="section-container__content__footer">
+        <div><div></div>${item.metro}</div>
+        <div><div></div>${item.floor}</div>
+        <div><div></div>${item.space}</div>
+      </div>
+    </div>
+    `
+  }
+  // div.innerHTML = `
+  // <div class="section-container__img">
+  //   <img src="${item.img}" alt="">
+  // </div>
+  // <div class="section-container__content">
+  //   <h4>${item.monthlyPrice} <span>/month</span></h4>
+  //   <p class="section-container__content-info">${item.information}</p>
+  //   <p class="section-container__content-address">${item.address}</p>
+  //   <div class="section-container__content__footer">
+  //     <div><div></div>${item.metro}</div>
+  //     <div><div></div>${item.floor}</div>
+  //     <div><div></div>${item.space}</div>
+  //   </div>
+  // </div>
+  // `
 
   if(item.recommended && benefitialCount < 3){
     benefitialContainer.appendChild(div);

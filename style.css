@@ -769,7 +769,9 @@ section > h2{
   width: 100%;
   padding: 0 80px;
   gap: 30px;
+  margin-top: 5px;
   margin-bottom: 35px;
+  margin-left: 120px;
 }
 
 .footer-info > div{

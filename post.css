@@ -49,6 +49,7 @@ section > h4{
 .row-1{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 22px;
     width: 100%;
     height: min-content;

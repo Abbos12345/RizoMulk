@@ -150,7 +150,8 @@ body{
   background-color: var(--background-main);
   width: 100%;
   height: max-content;
-  padding: 0 80px;
+  padding-inline: 80px;
+  padding-bottom: 80px;
 }
 
 

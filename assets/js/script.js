@@ -9,7 +9,9 @@ onSale.forEach((item) =>{
   div.classList.add('section-container')
 
   div.innerHTML = `
-  <div class="section-container__img"></div>
+  <div class="section-container__img">
+    <img src="${item.img}" alt="">
+  </div>
   <div class="section-container__content">
     <h4>${item.monthlyPrice} <span>/month</span></h4>
     <p class="section-container__content-info">${item.information}</p>
@@ -36,13 +38,15 @@ onSale.forEach((item) =>{
 const projectsContainer = document.querySelector(".main__buy-sell__projects");
 
 
-projects.forEach((index) =>{
+projects.forEach((item) =>{
   const company = document.createElement('div');
   company.classList.add('project-box')
 
   company.innerHTML = `
-    <div class="project-box__img"></div>
-    <span>${index}</span>
+    <div class="project-box__img">
+      <img src="${item.img}" alt="">
+    </div>
+    <span>${item.name}</span>
   `
 
   projectsContainer.appendChild(company)
@@ -56,7 +60,9 @@ projects.forEach((index) =>{
     seller.classList.add("sellers-box");
 
     seller.innerHTML = `
-      <div class="sellers-box__img"></div>
+      <div class="sellers-box__img">
+        <img src="${item.img}" alt="">
+      </div>
       <div class="sellers-box__text">
         <p>${item.name}</p>
         <span>${item.listing} объявлений</span>

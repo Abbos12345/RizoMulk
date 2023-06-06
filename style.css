@@ -111,12 +111,65 @@ section > h2{
   text-decoration: none;
 }
 
+.pointer{
+  display: inline-block;
+  background: url('./assets/icons/pointer.png');
+  background-position: 0 2px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+.upper__header > div:nth-child(1) > a{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-decoration: none;
+  color: rgba(50, 50, 50, 1);
+  margin-left: 12.7px;
+}
+
+
 .upper__header > div:nth-child(2) > a{
   margin-left: 24px;
 }
 
 .upper__header > div:nth-child(2) > div {
-  margin-left: 68px;
+  position: relative;
+  margin-left: 60px;
+}
+
+.flag{
+  position: absolute;
+  top: 0;
+  left: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag > span:nth-child(1){
+  display: inline-block;
+  background-color: white;
+  width: 23.95px;
+  height: 5.24px;
+}
+
+.flag > span:nth-child(2){
+  display: inline-block;
+  background-color: blue;
+  width: 23.95px;
+  height: 5.24px;
+}
+
+.flag > span:nth-child(3){
+  display: inline-block;
+  background-color: red;
+  width: 23.95px;
+  height: 5.24px;
 }
 
 .header__navigation{
@@ -124,6 +177,7 @@ section > h2{
   justify-content: space-between;
   align-items: center;
   padding: 0 80px;
+  height: 92px;
 }
 
 .header__navigation-logo{
@@ -147,6 +201,35 @@ section > h2{
   margin-left: 32px;
   cursor: pointer;
 }
+
+.header__navigation-btns{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__navigation-btns > button:nth-child(3){
+  margin-left: 12px;
+}
+
+.header__navigation-btns > button:nth-child(2){
+  margin-left: 16px;
+}
+
+.header__navigation-btns > button:nth-child(1){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14.5px 13.67px;
+}
+
+.header__navigation-btns > button:nth-child(1) > div{
+  background: url('./assets/icons/like.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16.67px;
+  height: 15px;
+} 
 
 
 

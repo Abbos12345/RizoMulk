@@ -311,6 +311,39 @@ section > h2{
   color: var(--light-color);
 }
 
+.section-container__content__footer > div{
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.section-container__content__footer > div:nth-child(1) > div{
+  background: url(./assets/icons/train.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 16px;
+}
+
+.section-container__content__footer > div:nth-child(2) > div{
+  background: url(./assets/icons/home.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 16px;
+}
+
+.section-container__content__footer > div:nth-child(3) > div{
+  background: url(./assets/icons/romb.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 16px;
+}
+
 
 
 /* ============================================ */

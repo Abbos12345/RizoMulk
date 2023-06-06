@@ -25,9 +25,9 @@ onSale.forEach((item) =>{
     <p class="section-container__content-info">${item.information}</p>
     <p class="section-container__content-address">${item.address}</p>
     <div class="section-container__content__footer">
-      <span>${item.metro}</span>
-      <span>${item.floor}</span>
-      <span>${item.space}</span>
+      <div><div></div>${item.metro}</div>
+      <div><div></div>${item.floor}</div>
+      <div><div></div>${item.space}</div>
     </div>
   </div>
   `

@@ -240,13 +240,13 @@ section > h2{
 .main{
   background-color: var(--background-main);
   width: 100%;
-  height: max-content;
+  height: auto;
   padding-inline: 80px;
   padding-bottom: 80px;
 }
 
-.msin__progrss-step{
-  margin-bottom: 20px;
+.main__progress-step{
+  margin-bottom: 30px;
 }
 
 

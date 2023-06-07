@@ -778,7 +778,7 @@ section > h2{
   display: flex;
   justify-content: space-between;
   justify-items: flex-start;
-  padding-top: 15px;
+  padding-top: 14px;
 }
 
 .partnership__col-1{
@@ -806,7 +806,7 @@ section > h2{
   height: 64px;
   border: 1px solid rgba(217, 246, 227, 1);
   border-radius: 50%;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 .partnership__col-1 > div > h6, .partnership__col-2 > div > h6{

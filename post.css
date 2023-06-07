@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 section{
     background-color: #fff;
     width: 100%;
@@ -44,6 +46,10 @@ section > h4{
     border: 2px solid rgba(235, 235, 235, 1);
     border-radius: 28px;
     color: #000;
+}
+
+.short{
+    padding: 12px 24px;
 }
 
 .row-1{
@@ -342,13 +348,20 @@ section > h4{
     margin-bottom: 24px;
 }
 
-.main__about-flat_-container{
+.main__about-flat__container{
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
+.main__about-flat__container > .row-1:nth-child(2) > .row-1__col-2 > input, .main__about-flat__container > .row-1:nth-child(3) > .row-1__col-2 > input{
+    width: 342px;
+}
 
+.main__about-flat__container > .row-1:nth-child(3) > .row-1__col-2 > p{
+    padding-inline: 16px;
+    margin-top: 15px;
+}
 
 
 

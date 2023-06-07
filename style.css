@@ -434,6 +434,7 @@ section > h2{
   font-weight: 500;
   line-height: 19.6px;
   color: var(--light-color);
+  padding-inline: 5px;
 }
 
 .section-container__content__footer > div{

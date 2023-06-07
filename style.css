@@ -666,6 +666,10 @@ section > h2{
   text-align: left;
 }
 
+.section-box > .sellers-box__text:nth-child(3){
+  margin-left: 10px;
+}
+
 .sellers-box__text > p{
   font-size: 16px;
   font-weight: 500;

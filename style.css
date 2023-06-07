@@ -642,7 +642,11 @@ section > h2{
 }
 
 .sellers-container > div:nth-child(2), .sellers-container > div:nth-child(5), .sellers-container > div:nth-child(8){
-  margin-left: 36px;
+  margin-left: 38px;
+}
+
+.sellers-container > div:nth-child(3), .sellers-container > div:nth-child(6), .sellers-container > div:nth-child(9){
+  margin-left: 20px;
 }
 
 .sellers-box__img{

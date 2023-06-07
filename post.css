@@ -503,11 +503,15 @@ section > h4{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 280px;
-    height: 48px;
+    margin-top: 40px;
     margin-bottom: 5px;
 }
 
 .save-btns > button{
     width: 280px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.1rem;
 }

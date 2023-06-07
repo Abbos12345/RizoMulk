@@ -448,7 +448,10 @@ section > h2{
   width: 100%;
   height: 1510px;
   margin-bottom: 48px;
+}
 
+.main__recommended > h4{
+  margin-bottom: 10px;
 }
 
 .main__recommended-btn{

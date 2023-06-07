@@ -307,7 +307,10 @@ section > h4{
 }
 
 .main__home-address__container__map{
-    background-color: black;
+    background: url('./assets/img/map2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 1206px;
     height: 480px;
     border-radius: 8px;

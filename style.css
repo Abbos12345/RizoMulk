@@ -305,10 +305,22 @@ section > h2{
 }
 
 .main__buy-sell__content{
-  background-color: black;
+  background: url('./assets/img/buy-sell.png');
+  background-position: center;
+  background-size: cover;
   width: 100%;
   height: 378px;
   border-radius: 16px;
+  padding: 64px 40px;
+}
+
+.main__buy-sell__content > h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
 }
 
 

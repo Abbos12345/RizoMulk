@@ -321,10 +321,117 @@ section > h2{
   line-height: 140%;
   letter-spacing: -0.01em;
   color: #FFFFFF;
+  margin-bottom: 40px;
 }
 
+.main__buy-sell__content-filter{
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  height: 82px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
 
+.main__buy-sell__content-btns{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
 
+.filter__col{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 32px;
+}
+
+.filter__col:not(:last-child){
+  border-right: 1px solid var(--light-color);
+}
+
+.filter__col > span{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%; 
+  color: var(--light-color);
+}
+
+.filter__col > p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000929;
+}
+
+.filter__col-1{
+  width: 249px;
+}
+
+.filter__col-2{
+  width: 217px;
+}
+
+.filter__col-3{
+  width: 284px;
+}
+
+.filter__col-4{
+  width: 195px;
+}
+
+.filter__col-5{
+  width: 198px;
+}
+
+.main__buy-sell__content-btns  > div:nth-child(1) > button{
+  width: 239px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(2px);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'ss06' on, 'ss04' on, 'liga' off;
+  color: #FFFFFF;
+}
+
+.main__buy-sell__content-btns  > div:nth-child(2) > button:nth-child(1){
+  width: 156px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(2px);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'ss06' on, 'ss04' on, 'liga' off;
+  color: #FFFFFF;
+}
+
+.main__buy-sell__content-btns  > div:nth-child(2) > button:nth-child(2){
+  width: 156px;
+  height: 48px;
+  background: #1BC27A;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'ss06' on, 'ss04' on, 'liga' off;
+  color: #FFFFFF;
+  margin-left: 16px;
+}
 
 
 /* ============================================= */
@@ -773,7 +880,11 @@ section > h2{
   margin-bottom: 24px;
 }
 
-.footer > input{
+.footer > form{
+  position: relative;
+}
+
+.footer > form > input{
   width: 448px;
   height: 48px;
   border-radius: 24px;
@@ -782,7 +893,23 @@ section > h2{
   margin-bottom: 60px;
 }
 
-.footer > input::placeholder{
+.footer > form > button{
+  position: absolute;
+  top: 1px;
+  right: 2px;
+  width: 120px;
+  height: 44px;
+  background: #1BC27A;
+  border-radius: 24px;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer > form > input::placeholder{
   color: var(--main-color);
   font-size: 16px;
   font-weight: 400;

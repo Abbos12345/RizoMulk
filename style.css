@@ -666,7 +666,7 @@ section > h2{
   text-align: left;
 }
 
-.section-box > .sellers-box__text:nth-child(3){
+.sellers-box > .sellers-box__text:nth-child(3){
   margin-left: 10px;
 }
 

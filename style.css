@@ -346,7 +346,7 @@ section > h2{
   display: flex;
   flex-direction: column;
   gap: 4px;
-  margin-left: 32px;
+  padding-left: 32px;
 }
 
 .filter__col:not(:last-child){
@@ -369,7 +369,7 @@ section > h2{
 }
 
 .filter__col-1{
-  width: 249px;
+  width: 306px;
 }
 
 .filter__col-2{

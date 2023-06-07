@@ -189,7 +189,7 @@ section > h2{
   background: url(./assets/img/logo.png);
   width: 90px;
   height: 72px;
-  padding-right: 8px;
+  margin-right: 8px;
 }
 
 .header__navigation > nav{

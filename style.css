@@ -784,16 +784,17 @@ section > h2{
 .partnership__col-1{
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 48px;
   width: 350px;
   height: 100%;
   text-align: left;
+  margin-right: 5px;
 }
 
 .partnership__col-2{
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 48px;
   width: 320px;
   height: 100%;
   text-align: left;
@@ -806,7 +807,7 @@ section > h2{
   height: 64px;
   border: 1px solid rgba(217, 246, 227, 1);
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .partnership__col-1 > div > h6, .partnership__col-2 > div > h6{

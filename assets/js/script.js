@@ -15,10 +15,6 @@ let regularCount = 0;
 onSale.forEach((item) =>{
   const div = document.createElement('div');
   div.classList.add('section-container')
-  //  if(recommended){
-  //   div.innerHTML = `
-  //     <div class="recommended">Рекомендовано</div>
-  //   `}
 
     div.innerHTML = `
     <div class="section-container__img">

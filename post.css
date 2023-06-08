@@ -410,6 +410,10 @@ section > h4{
     gap: 26px;
 }
 
+.main__view-and-more__container > .row-1:nth-child(1) > .row-1__col-2{
+    margin-bottom: 7px;
+}
+
 .message-input {
     width: 700px;
     height: 120px;

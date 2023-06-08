@@ -496,7 +496,7 @@ section > h4{
 
 
 .main__price-and-deal__container > .row-1 > .row-1__col-1:nth-child(2), .main__price-and-deal__container > .row-1 > .row-1__col-1:nth-child(3){
-    padding-top: 4px;
+    margin-top: 5px;
 }
 
 

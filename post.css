@@ -481,6 +481,7 @@ section > h4{
 .main__contacts{
     width: 100%;
     height: 400px;
+    padding: 24px 36px;
 }
 
 .main__contacts > h4{

@@ -484,7 +484,7 @@ section > h4{
 }
 
 .main__contacts > h4{
-    margin-bottom: 24px;
+    margin-bottom: 14px;
 }
 
 .main__contacts__container{
@@ -505,6 +505,7 @@ section > h4{
     gap: 20px;
     margin-top: 40px;
     margin-bottom: 5px;
+    margin-right: 15px;
 }
 
 .save-btns > button{

@@ -495,6 +495,10 @@ section > h4{
 }
 
 
+.main__price-and-deal__container > .row-1 > .row-1__col-1:nth-child(2), .main__price-and-deal__container > .row-1 > .row-1__col-1:nth-child(3){
+    padding-top: 4px;
+}
+
 
 
 /* ============== SAVE BTNS =============== */
@@ -506,7 +510,7 @@ section > h4{
     gap: 20px;
     margin-top: 40px;
     margin-bottom: 5px;
-    margin-right: 40px;
+    margin-right: 45px;
 }
 
 .save-btns > button{

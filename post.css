@@ -173,7 +173,7 @@ section > h4{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background-color: rgba(250, 250, 250, 1);
     width: 386px;
     height: 124px;

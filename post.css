@@ -367,6 +367,10 @@ section > h4{
     gap: 24px;
 }
 
+.main__about-flat__container > .row-1:nth-child(1) >.row-1__col-2{
+    gap: 12px;
+}
+
 .main__about-flat__container > .row-1:nth-child(2) > .row-1__col-2 > input, .main__about-flat__container > .row-1:nth-child(3) > .row-1__col-2 > input{
     width: 342px;
 }

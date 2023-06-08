@@ -15,15 +15,17 @@ let regularCount = 0;
 onSale.forEach((item) =>{
   const div = document.createElement('div');
   div.classList.add('section-container')
+  //  if(recommended){
+  //   div.innerHTML = `
+  //     <div class="recommended">Рекомендовано</div>
+  //   `}
 
-
-  if(item.monthlyPrice){
     div.innerHTML = `
     <div class="section-container__img">
       <img src="${item.img}" alt="">
     </div>
     <div class="section-container__content">
-      <h4>${item.monthlyPrice} <span>/month</span></h4>
+      <h4>${item.monthlyPrice ? item.monthlyPrice : item.totalPrice} <span>/month</span></h4>
       <p class="section-container__content-info">${item.information}</p>
       <p class="section-container__content-address">${item.address}</p>
       <div class="section-container__content__footer">
@@ -33,25 +35,8 @@ onSale.forEach((item) =>{
       </div>
     </div>
     <div class="section-container__content-like"><div></div></div>
+    ${item.recommended ? '<div class="recommended"><div></div>Рекомендовано</div>' : ''}
     `
-  } else{
-    div.innerHTML = `
-    <div class="section-container__img">
-      <img src="${item.img}" alt="">
-    </div>
-    <div class="section-container__content">
-      <h4>${item.totalPrice}</h4>
-      <p class="section-container__content-info">${item.information}</p>
-      <p class="section-container__content-address">${item.address}</p>
-      <div class="section-container__content__footer">
-        <div><div></div>${item.metro}</div>
-        <div><div></div>${item.floor}</div>
-        <div><div></div>${item.space}</div>
-      </div>
-    </div>
-    <div class="section-container__content-like"><div></div></div>
-    `
-  }
   // div.innerHTML = `
   // <div class="section-container__img">
   //   <img src="${item.img}" alt="">

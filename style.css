@@ -515,6 +515,37 @@ section > h2{
   border-radius: 50%;
 }
 
+.recommended{
+  background-color: rgba(27, 194, 122, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 159px;
+  height: 32px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 4px;
+}
+
+.recommended > div{
+  background: url('./assets/icons/recommended.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  padding-bottom: 4px;
+}
+
 .section-container__content-like > div{
   background: url('./assets/icons/like.png');
   background-position: center;

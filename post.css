@@ -96,8 +96,43 @@ section > h4{
 }
 
 
+/*  =============================== HEADER UPGRADE =========================== */
 
+.header__add-post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    height: 92px;
+}
 
+.header__add-post > nav{
+    display: flex;
+    align-items: center;
+}
+
+.header__add-post > nav > a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-left: 36px;
+    cursor: pointer;
+}
+
+.header__add-post-logo{
+    display: inline-block;
+    background: linear-gradient(270deg, #1BC27A 0%, #4FE48A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-right: 33px;
+}
 
 
 
@@ -122,6 +157,7 @@ section > h4{
     color: #000;
     text-align: center;
     margin-bottom: 8px;
+    margin-right: 80px;
 }
 
 .main__progress-step p{
@@ -131,6 +167,7 @@ section > h4{
     color: var(--light-color);
     text-align: center;
     margin-bottom: 32px;
+    margin-right: 80px;
 }
 
 .progres-step-container{
@@ -520,16 +557,34 @@ section > h4{
     gap: 24px;
 }
 
-.main__contacts__container > .row-1:nth-child(3) > .row-1__col-2{
+.main__contacts__container > .row-1:nth-child(3) > .row-1__col-2, .main__contacts__container > .row-1:nth-child(4) > .row-1__col-2{
     position: relative;
 }
 
 .main__contacts__container > .row-1:nth-child(3) > .row-1__col-2 > button{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 8px;
+    right: 368px;
     width: 140px;
     height: 40px;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.main__contacts__container > .row-1:nth-child(4) > .row-1__col-2 > button{
+    position: absolute;
+    width: 205px;
+    height: 56px;
+    top: 0;
+    left: 732px;
+    background: #EBEBEB;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #00000035;
 }
 
 

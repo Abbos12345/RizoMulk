@@ -20,10 +20,15 @@ section > h4{
     width: 400px;
     height: 56px;
     padding-left: 24px;
-    padding-top: 16px;
+    padding-top: 10px;
     color: rgba(235, 235, 235, 1);
     border: 2px solid rgba(235, 235, 235, 1);
     border-radius: 8px;
+}
+
+textarea{
+    padding-top: 10px;
+    padding-left: 24px;
 }
 
 .input::placeholder, textarea::placeholder{

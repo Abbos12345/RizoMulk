@@ -32,6 +32,7 @@ onSale.forEach((item) =>{
         <div><div></div>${item.space}</div>
       </div>
     </div>
+    <div class="section-container__content-like"><div></div></div>
     `
   } else{
     div.innerHTML = `
@@ -48,6 +49,7 @@ onSale.forEach((item) =>{
         <div><div></div>${item.space}</div>
       </div>
     </div>
+    <div class="section-container__content-like"><div></div></div>
     `
   }
   // div.innerHTML = `

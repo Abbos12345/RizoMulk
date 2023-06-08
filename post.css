@@ -382,6 +382,22 @@ section > h4{
     gap: 24px;
 }
 
+.main__about-home__container > .row-1:nth-child(1){
+    position: relative;
+}
+
+.main__about-home__container > .row-1:nth-child(1) > .right-col{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    position: absolute;
+    top: 0;
+    left: 633px;
+}
+
+.main__about-home__container > .row-1:nth-child(1) > .right-col > .row-1__col-1{
+    width: 153px;
+}
 
 
 
@@ -457,6 +473,16 @@ section > h4{
 .main__view-and-more__container > .row-1:nth-child(1) > .row-1__col-2{
     margin-bottom: 7px;
 }
+
+.main__view-and-more__container > .row-1:nth-child(3) > .row-1__col-1{
+    padding-bottom: 65px;
+}
+
+.main__view-and-more__container > .row-1:nth-child(4) > .row-1__col-1{
+    padding-bottom: 60px;
+}
+
+
 
 .message-input {
     width: 700px;

@@ -332,8 +332,8 @@ section > h2{
   height: 82px;
   border-radius: 8px;
   margin-bottom: 24px;
-  padding-top: 18px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .main__buy-sell__content-btns{
@@ -440,12 +440,40 @@ section > h2{
 
 
 .main__benefitial{
+  position: relative;
   width: 100%;
   height: 490px;
   margin-bottom: 64px;
 }
 
+.main__benefitial-btns{
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+.main__benefitial-btns > button{
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+}
+
+.main__benefitial-btns > button:nth-child(1){
+  background-image: url('./assets/icons/left-arrow.png');
+}
+
+.main__benefitial-btns > button:nth-child(2){
+  background-image: url('./assets/icons/right-arrow.png');
+}
+
 .main__recommended{
+  position: relative;
   width: 100%;
   height: 1510px;
   margin-bottom: 48px;
@@ -453,6 +481,40 @@ section > h2{
 
 .main__recommended > h2{
   margin-bottom: 32px;
+}
+
+.main__recommended > p{
+  position: absolute;
+  top: 4px;
+  right: 33px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  color: #323232;
+}
+
+.main__recommended > p > span{
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #32323235;
+  margin-right: 8px;
+}
+
+.main__recommended > p > span:after{
+  content: "";
+  background-color: #fff;
+  background-image: url('./assets/icons/down-arrow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 230px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
 
 .main__recommended-btn{

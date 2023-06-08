@@ -373,7 +373,6 @@ section > h4{
 }
 
 .main__about-flat__container > .row-1:nth-child(3) > .row-1__col-2 > p{
-    margin-inline: 7px;
     margin-top: 17px;
     font-weight: 600;
     font-size: 16px;

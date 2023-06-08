@@ -25,10 +25,10 @@ section > h4{
     border-radius: 8px;
 }
 
-.input::placeholder{
+.input::placeholder, textarea::placeholder{
     color: rgba(235, 235, 235, 1);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 24px;
 }
 
@@ -373,8 +373,8 @@ section > h4{
 }
 
 .main__about-flat__container > .row-1:nth-child(3) > .row-1__col-2 > p{
-    margin-inline: 16px;
-    margin-top: 15px;
+    margin-inline: 8px;
+    margin-top: 18px;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;

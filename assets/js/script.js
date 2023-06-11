@@ -21,7 +21,7 @@ onSale.forEach((item) =>{
       <img src="${item.img}" alt="">
     </div>
     <div class="section-container__content">
-      <h4>${item.monthlyPrice ? item.monthlyPrice : item.totalPrice} <span>/month</span></h4>
+      <h4>${item.monthlyPrice ? item.monthlyPrice : item.totalPrice} ${item.monthlyPrice ? '<span>/month</span>' : ''}</h4>
       <p class="section-container__content-info">${item.information}</p>
       <p class="section-container__content-address">${item.address}</p>
       <div class="section-container__content__footer">
